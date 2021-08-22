@@ -3,7 +3,7 @@ pragma solidity ^0.4.24;
 import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 contract Room is Ownable {
-  constructor(address _creator) public{
+  constructor(address _creator) public payable{
     owner = _creator;
   }
 
