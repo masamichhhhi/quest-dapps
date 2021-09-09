@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "truffle test",
     "coverage": "solidity-coverage"
   },
   "keywords": [],
@@ -18,7 +18,6 @@
     "chai-as-promised": "^7.1.1",
     "chai-bignumber": "^3.0.0",
     "openzeppelin-solidity": "^1.12.0",
-    "solidity-coverage": "^0.7.17",
-    "truffle": "^5.4.8"
+    "solidity-coverage": "^0.7.17"
   }
 }
